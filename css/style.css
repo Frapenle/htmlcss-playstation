@@ -1,3 +1,4 @@
+
 /* TOP SCROLL BLACK BAR */
 .sony-logo-bar {
     width: 100%;
@@ -19,12 +20,18 @@
 
 
 /* JUMBOTRON */
-.jumbotron {
-    position: relative;
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
 }
 
-.text-overlay {
-    position: absolute;
-    left: 1rem;
-    top: 30%;
+.wrapper-jumbo {
+    padding-top: 220px;
+}
+
+#jumbotron .img img {
+    width: 300px;
 }
