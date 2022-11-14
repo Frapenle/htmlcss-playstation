@@ -1,4 +1,11 @@
+:root {
+    --link-blue-color: #0273CD;
+    --text-subtitle-grey: #737373;
+}
 
+a {
+    text-decoration: none;
+}
 /* TOP SCROLL BLACK BAR */
 .sony-logo-bar {
     width: 100%;
@@ -16,6 +23,10 @@
     background-position: center;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* HEADER */
 
 
@@ -24,14 +35,57 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    min-height: 600px;
+    max-height: 100%;
     background-repeat: no-repeat;
 }
 
-.wrapper-jumbo {
-    padding-top: 220px;
+.wrapper {
+    padding-top: 200px;
 }
 
 #jumbotron .img img {
     width: 300px;
+}
+
+/* PS5 */
+.intro-info-ps5 {
+    text-align: center;
+}
+
+#ps5 div span {
+    color: var(--text-subtitle-grey);
+}
+
+.img-ps5 {
+    width: 100%;
+}
+
+.img-ps5 img {
+    width: 100%;
+}
+
+.wrapper-ps5-little-box:hover {
+    height: 100%;
+    border-bottom: 1px solid var(--link-blue-color)
+}
+
+sup {
+    font-size: .5rem;
+    text-transform: uppercase;
+}
+
+/* JUMBO 2 */
+#hero {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+
+#hero .img img {
+    padding-top: 30px;
+    width: 50%;
 }
