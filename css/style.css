@@ -4,6 +4,7 @@
     --hero-bg-color: #1f1f1f;
     --banner-bg-psplus: #bebcbb;
     --banner-bg-psnow: #161c3b;
+    --footer-bg-color: #00439c;
 }
 
 span {
@@ -141,4 +142,32 @@ sup {
     color: var(--banner-bg-psnow);
     background-color: white;
     border: none;
+}
+
+/* FOOTER */
+#footer {
+    background-color: var(--footer-bg-color);
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer span {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.breadcrumb::before {
+    content: url(../img/language-globe.svg);
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.footer-logo img {
+    max-width: 150px;
 }
