@@ -1,6 +1,7 @@
 :root {
     --link-blue-color: #0273CD;
     --text-subtitle-grey: #737373;
+    --hero-bg-color: #1f1f1f;
 }
 
 a {
@@ -41,7 +42,7 @@ body {
 }
 
 .wrapper {
-    padding-top: 200px;
+    height: 100%;
 }
 
 #jumbotron .img img {
@@ -49,7 +50,7 @@ body {
 }
 
 /* PS5 */
-.intro-info-ps5 {
+.intro-info-ps {
     text-align: center;
 }
 
@@ -83,9 +84,30 @@ sup {
     min-height: 600px;
     max-height: 100%;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.wrap-hero {
+    height: 100%;
 }
 
 #hero .img img {
-    padding-top: 30px;
-    width: 50%;
+    width: 100%;
+}
+
+/* NUOVE USCITE */
+#nuove-uscite {
+    width: 100%;
+    background-color: var(--hero-bg-color);
+}
+
+#nuove-uscite p{
+    margin-top: 1rem;
+}
+
+
+
+/* PS4 */
+#ps4 sup {
+    font-size: initial;
 }
