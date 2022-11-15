@@ -2,6 +2,7 @@
     --link-blue-color: #0273CD;
     --text-subtitle-grey: #737373;
     --hero-bg-color: #1f1f1f;
+    --banner-bg-psplus: #bebcbb;
 }
 
 a {
@@ -105,9 +106,19 @@ sup {
     margin-top: 1rem;
 }
 
-
-
 /* PS4 */
 #ps4 sup {
     font-size: initial;
+}
+
+/* BANNER PS PLUS */
+#banner-ps-plus {
+    background-color: var(--banner-bg-psplus);
+
+}
+
+#banner-ps-plus a.btn {
+    color: blue;
+    background-color: white;
+    border: none;
 }
