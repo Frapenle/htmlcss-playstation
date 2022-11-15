@@ -15,6 +15,17 @@ a {
     text-decoration: none;
 }
 
+/* animation hover */
+.my_card:hover {
+    animation: cssAnimation_0 92ms 4 ease-out 115ms;
+}
+
+@keyframes cssAnimation_0 {
+    to {
+        transform: rotate(3deg) translate(0px, 0px);
+    }
+}
+
 /* TOP SCROLL BLACK BAR */
 .sony-logo-bar {
     width: 100%;
@@ -43,6 +54,7 @@ header {
     height: 100%;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 /* change color nav bootstrap */
 .nav-link {
@@ -72,6 +84,11 @@ li a img.lens {
     width: 300px;
 }
 
+/* MAIN */
+#nuove-uscite img {
+    border-radius: 1rem;
+}
+
 /* PS5 */
 .intro-info-ps {
     text-align: center;
@@ -89,9 +106,18 @@ li a img.lens {
     width: 100%;
 }
 
+.wrapper-ps5-little-box {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
 .wrapper-ps5-little-box:hover {
     height: 100%;
-    border-bottom: 1px solid var(--link-blue-color)
+    opacity: 1;
+    transition: .1s ease-in;
+    border-bottom: 1px solid var(--link-blue-color);
 }
 
 sup {
