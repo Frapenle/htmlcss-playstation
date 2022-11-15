@@ -3,11 +3,17 @@
     --text-subtitle-grey: #737373;
     --hero-bg-color: #1f1f1f;
     --banner-bg-psplus: #bebcbb;
+    --banner-bg-psnow: #161c3b;
+}
+
+span {
+    color: var(--text-subtitle-grey);
 }
 
 a {
     text-decoration: none;
 }
+
 /* TOP SCROLL BLACK BAR */
 .sony-logo-bar {
     width: 100%;
@@ -30,6 +36,10 @@ body {
 }
 
 /* HEADER */
+/* change color nav bootstrap */
+.nav-link {
+    color: black !important;
+}
 
 
 /* JUMBOTRON */
@@ -114,11 +124,21 @@ sup {
 /* BANNER PS PLUS */
 #banner-ps-plus {
     background-color: var(--banner-bg-psplus);
-
 }
 
 #banner-ps-plus a.btn {
     color: blue;
+    background-color: white;
+    border: none;
+}
+
+/* PS NOW */
+#banner-ps-now {
+    background-color: var(--banner-bg-psnow);
+}
+
+#banner-ps-now a.btn {
+    color: var(--banner-bg-psnow);
     background-color: white;
     border: none;
 }
