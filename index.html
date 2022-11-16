@@ -29,22 +29,24 @@
     <!-- HEADER -->
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg py-0">
             <div class="container-fluid">
-                    <!-- LOGO NAVBAR -->
+                <!-- LOGO NAVBAR -->
                 <a class="navbar-brand me-0" href="#">
                     <img src="./img/play_logo.svg" alt="Bootstrap" height="100%">
                 </a>
                 <!-- HAMBURGER -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
-                    aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+    
                 <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                            <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Giochi</a>
                             <ul class="dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">Item 1</a></li>
                                 <li><a class="dropdown-item" href="#">Item 2</a></li>
@@ -52,14 +54,32 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                            <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Hardware</a>
                             <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                                <li><a class="dropdown-item" href="#">Item 2</a></li>
-                                <li><a class="dropdown-item" href="#">Item 3</a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="box-nav">
+                                            <img src="./img/play-menu-ico.png" alt="playstation image">
+                                            <p>PlayStation 5</p>
+                                        </div>
+                                    </a></li>
+    
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="box-nav">
+                                            <img src="./img/play-menu-ico.png" alt="playstation image">
+                                            <p>PlayStation 4</p>
+                                        </div>
+                                    </a></li>
+    
+                                <li><a class="dropdown-item" href="#">
+                                        <div class="box-nav">
+                                            <img src="./img/play-menu-ico.png" alt="playstation image">
+                                            <p>PlayStation 3</p>
+                                        </div>
+                                    </a></li>
                             </ul>
                         </li>
-
+    
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Servizi</a>
@@ -69,7 +89,7 @@
                                 <li><a class="dropdown-item" href="#">Item 3</a></li>
                             </ul>
                         </li>
-
+    
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Novità</a>
@@ -79,7 +99,7 @@
                                 <li><a class="dropdown-item" href="#">Item 3</a></li>
                             </ul>
                         </li>
-
+    
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Hardware</a>
@@ -89,7 +109,7 @@
                                 <li><a class="dropdown-item" href="#">Item 3</a></li>
                             </ul>
                         </li>
-
+    
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Fai acquisti</a>
@@ -99,7 +119,7 @@
                                 <li><a class="dropdown-item" href="#">Item 3</a></li>
                             </ul>
                         </li>
-
+    
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Supporto</a>
@@ -110,7 +130,7 @@
                             </ul>
                         </li>
                     </ul>
-
+    
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link my_dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -121,15 +141,17 @@
                                 <li><a class="dropdown-item" href="#">Item 3</a></li>
                             </ul>
                         </li>
-                        <li class="d-none d-lg-block nav-item dropdown mx-2"><a href="#" class="btn rounded-5 btn-dark">Accedi</a></li>
-                        <li class="d-none d-lg-block nav-item dropdown ms-2"><a href="#"><img src="./img/lens.svg" alt="lens search btn" class="lens h-100"></a></li>
+                        <li class="d-none d-lg-block nav-item dropdown mx-2"><a href="#"
+                                class="btn rounded-5 btn-dark">Accedi</a></li>
+                        <li class="d-none d-lg-block nav-item dropdown ms-2"><a href="#"><img src="./img/lens.svg"
+                                    alt="lens search btn" class="lens h-100"></a></li>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- JUMBOTRON -->
-    <section id="jumbotron" class="d-flex align-items-end pb-5 mb-4 px-2">
+    <section id="jumbotron" class="d-flex align-items-end pb-5 mb-4">
         <div class="wrapper">
             <div class="container-fluid">
                 <div class="row">
@@ -152,7 +174,7 @@
 
     <!-- MAIN -->
     <main class="overflow-hidden">
-        <section id="my-cards" class="mb-5 px-2">
+        <section id="my-cards" class="mb-5">
             <div class="container-fluid">
 
                 <!-- CARDS -->
@@ -199,7 +221,7 @@
         </section>
 
         <!-- SECTION PS5 -->
-        <section id="ps5" class="mb-5 px-2">
+        <section id="ps5" class="mb-5">
             <div class="container-fluid">
                 <!-- ps5 -->
                 <div class="row g-5 align-items-center">
@@ -292,7 +314,7 @@
         </section>
 
         <!-- HERO -->
-        <section id="hero" class="d-flex align-items-center px-2">
+        <section id="hero" class="d-flex align-items-center">
             <div class="wrap-hero">
                 <div class="container-fluid">
                     <div class="row">
@@ -315,7 +337,7 @@
 
 
         <!-- NUOVE USCITE -->
-        <section id="nuove-uscite" class="mb-5 py-4 px-2 text-white">
+        <section id="nuove-uscite" class="mb-5 py-4 text-white">
             <div class="container-fluid">
 
                 <div class="row g-3">
@@ -410,7 +432,7 @@
         </section>
 
         <!-- SECTION PS4 -->
-        <section id="ps4" class="mb-5 px-2">
+        <section id="ps4" class="mb-5">
             <div class="container-fluid">
                 <!-- ps4 -->
                 <div class="row g-5 align-items-center">
@@ -470,7 +492,7 @@
         </section>
 
         <!-- PS PLUS -->
-        <section id="banner-ps-plus" class="py-5 px-2 py-md-0 mb-5">
+        <section id="banner-ps-plus" class="py-5 py-md-0 mb-5">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6">
@@ -495,7 +517,7 @@
         </section>
 
         <!-- SECTION SCONTI PS-STORE -->
-        <section id="sconti-ps4" class="mb-5 px-2">
+        <section id="sconti-ps4" class="mb-5">
             <div class="container-fluid">
                 <div class="row g-5 align-items-center">
                     <div class="col-12">
@@ -530,7 +552,7 @@
         </section>
 
         <!-- PS NOW -->
-        <section id="banner-ps-now" class="py-5 px-2 py-md-0 mb-4 text-white">
+        <section id="banner-ps-now" class="py-5 py-md-0 mb-4 text-white">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6">
@@ -560,7 +582,7 @@
             <div class="wrap-social">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6">
-                        <div class="container-fluid container-md">
+                        <div class="container-fluid">
                             <div class="row g-3">
                                 <div class="col-12">
                                     <h2 class="text-center py-5">Seguici sui social media</h2>
@@ -587,7 +609,7 @@
     
     <!-- FOOTER -->
     <footer id="footer" class="text-white py-5">
-        <div class="container">
+        <div class="container-fluid">
             <!-- logo country -->
             <div class="row g-3">
                 <div class="col-12 col-lg-5">
