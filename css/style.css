@@ -264,6 +264,7 @@ sup {
 
 /* FOOTER */
 #footer {
+    font-size: .8rem;
     background-color: var(--footer-bg-color);
 }
 
@@ -282,10 +283,23 @@ footer span {
 
 .breadcrumb::before {
     content: url(../img/language-globe.svg);
-    width: 1.5rem;
+    width: 1.2rem;
     margin-right: 1rem;
+
 }
 
 .footer-logo img {
     max-width: 150px;
+}
+
+footer .my-links li a {
+    line-height: 2rem;
+    font-size: .8rem;
+}
+
+.footer-wrapper {
+    padding: 3rem 0;
+}
+.wrapper-footer-end {
+    margin-top: 2rem;
 }
